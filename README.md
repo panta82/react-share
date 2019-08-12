@@ -1,6 +1,6 @@
 # Panta's fork
 
-Available as: https://www.npmjs.com/package/react-native-share
+Available as: https://www.npmjs.com/package/panta-react-share
 
 ### Merged Trepkos01's fix for FB
 
