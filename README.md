@@ -1,3 +1,31 @@
+# Panta's fork
+
+### Merged Trepkos01's fix for FB
+
+https://github.com/nygardk/react-share/pull/237
+
+Addressing Issue #228
+
+This is a workaround for the issues created by Facebook's Graph API Update (Currently v3.3).
+
+Facebook Graph API requires an access token to retrieve share statistics. The return object structure has changed as well. ( {engagement} vs. {share} ).
+
+To get your access token, follow the steps below.
+
+1. You would need to create an Facebook app for your website. Facebook Developers.
+
+2. Go to "My Apps" -> Click "Tools" -> Click "Graph API Explorer"
+
+3. Click "Get Token" and Choose the option, "Get App Token" and copy/paste the resulting token.
+
+I added an additional optional property to the ShareCount component. You can pass your access token as a property for the FacebookShareCount component. If this property isn't available, default behavior will apply. (i.e., Count = 0)
+
+-----------------------------
+
+### The rest of the README is the same as original
+
+-----------------------------
+
 # react-share
 
 [![npm version](https://badge.fury.io/js/react-share.svg)](https://badge.fury.io/js/react-share)
