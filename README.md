@@ -1,5 +1,7 @@
 # Panta's fork
 
+Available as: https://www.npmjs.com/package/react-native-share
+
 ### Merged Trepkos01's fix for FB
 
 https://github.com/nygardk/react-share/pull/237
